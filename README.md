@@ -20,7 +20,7 @@ Start the server using:
 node index.js
 ```
 
-The API will be running at **http://localhost:5000**
+The API will be running at **https://user-management-services-7vqm.onrender.com**
 
 ## API Endpoints
 
@@ -28,7 +28,7 @@ The API will be running at **http://localhost:5000**
 
 #### Register a User
 ```http
-POST: https://user-management-services-7vqm.onrender.com/auth/register
+POST: **https://user-management-services-7vqm.onrender.com/auth/register**
 ```
 **Request Body**
 ```json
