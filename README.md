@@ -27,8 +27,9 @@ The API will be running at **https://user-management-services-7vqm.onrender.com*
 ### Authentication Routes
 
 #### Register a User
-```http
-POST **https://user-management-services-7vqm.onrender.com/auth/register**
+Request Type: POST
+```https
+https://user-management-services-7vqm.onrender.com/auth/register
 ```
 **Request Body**
 ```json
