@@ -48,8 +48,9 @@ https://user-management-services-7vqm.onrender.com/auth/register
 ```
 
 #### Login a User
-```http
-POST: https://user-management-services-7vqm.onrender.com/auth/login
+Request Type: POST
+```https
+https://user-management-services-7vqm.onrender.com/auth/login
 ```
 **Request Body**
 ```json
@@ -66,8 +67,9 @@ POST: https://user-management-services-7vqm.onrender.com/auth/login
 ```
 
 #### Logout a User
-```http
-GET: https://user-management-services-7vqm.onrender.com/auth/logout
+Request Type: GET
+```https
+https://user-management-services-7vqm.onrender.com/auth/logout
 ```
 **Response**
 ```json
@@ -81,8 +83,9 @@ GET: https://user-management-services-7vqm.onrender.com/auth/logout
 ### User Management Routes (Requires JWT Token)
 
 #### Get All Users
-```http
-GET: https://user-management-services-7vqm.onrender.com/users/all_users
+Request Type: GET
+```https
+https://user-management-services-7vqm.onrender.com/users/all_users
 ```
 **Headers**
 ```
@@ -102,8 +105,9 @@ Authorization: Bearer your_jwt_token_here
 ```
 
 #### Get a Single User
-```http
-GET: https://user-management-services-7vqm.onrender.com/users/user/:id
+Request Type: GET
+```https
+https://user-management-services-7vqm.onrender.com/users/user/:id
 ```
 **Response**
 ```json
@@ -117,8 +121,9 @@ GET: https://user-management-services-7vqm.onrender.com/users/user/:id
 ```
 
 #### Update a User
-```http
-PUT: https://user-management-services-7vqm.onrender.com/users/update_user
+Request Type: PUT
+```https
+https://user-management-services-7vqm.onrender.com/users/update_user
 ```
 **Request Body**
 ```json
@@ -135,8 +140,9 @@ PUT: https://user-management-services-7vqm.onrender.com/users/update_user
 ```
 
 #### Delete a User
-```http
-DELETE: https://user-management-services-7vqm.onrender.com/users/delete/:id
+Request Type: DELETE
+```https
+https://user-management-services-7vqm.onrender.com/users/delete/:id
 ```
 **Response**
 ```json
