@@ -1,6 +1,21 @@
 # User Management API
 
-User Management API is a Node.js backend that provides user authentication and CRUD operations using **Express.js, SQLite, and JWT authentication**.
+User Management System – Backend-Only Secure API
+A robust backend system designed to manage user records with authentication and role-based access, simulating core user operations for admin dashboards and enterprise apps.
+
+Developed secure RESTful APIs for user registration, login (JWT-based), profile retrieval, updates, and deletion.
+
+Implemented authentication middleware using JSON Web Tokens to protect sensitive routes.
+
+Used bcrypt.js for password hashing and enforced unique constraints on mobile and PAN numbers.
+
+Built with Node.js, Express.js, SQLite, and Winston/Morgan for structured logging and debugging.
+
+Ensured clean architecture with modular controllers, routes, and models for scalable maintenance.
+
+Focused on solving the gap in lightweight, token-secured user management systems for small apps without heavy DB overhead.
+
+Tech Stack: **Node.js, Express.js, SQLite, JWT, bcrypt.js, dotenv, winston, morgan**. 
 
 ## Installation
 
