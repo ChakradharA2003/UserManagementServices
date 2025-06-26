@@ -9,13 +9,13 @@ Implemented authentication middleware using JSON Web Tokens to protect sensitive
 
 Used bcrypt.js for password hashing and enforced unique constraints on mobile and PAN numbers.
 
-Built with Node.js, Express.js, SQLite, and Winston/Morgan for structured logging and debugging.
+Built with Node.js, Express.js, SQLite, and Morgan for structured logging and debugging.
 
 Ensured clean architecture with modular controllers, routes, and models for scalable maintenance.
 
 Focused on solving the gap in lightweight, token-secured user management systems for small apps without heavy DB overhead.
 
-Tech Stack: **Node.js, Express.js, SQLite, JWT, bcrypt.js, dotenv, winston, morgan**. 
+Tech Stack: **Node.js, Express.js, SQLite, JWT, bcrypt.js, dotenv, morgan**. 
 
 ## Installation
 
